@@ -1,0 +1,227 @@
+body {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: normal; */
+    font: 16px normal Verdana, sans-serif;
+    background: #fcdcee;
+    color: #3d131a;
+}
+
+h1 {
+    color: #f00c76;
+}
+
+.text {
+    color: rgb(216, 102, 146);
+    width: 110%;
+    
+}
+
+.card1 {
+    background-color: #c2def0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.card2 {
+    background-color: #d3b9ee;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+  
+}
+
+.card3 {
+    background-color: #c7f3e8;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 20pxpx auto;
+}
+
+.img {
+    box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.q {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #3d131a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1c19f3;
+}
+
+a:visited {
+    color: #f00c76;
+}
+
+a:active {
+    color: salmon;
+}
+
+.btn {
+    background: darkcyan;
+    color: azure;
+    padding: 10px 10px;
+    font-family: inherit;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .8;
+    color: #0cf0d2;
+}
+
+.card2 ul {
+    padding-left: 15px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.card2 ul li {
+    margin-bottom: 5px;
+}
+
+.card2 ul li:last-child {
+    margin-bottom: 0;
+}
+
+.card2 ul li:hover {
+    text-decoration: underline;
+    color: #eee9f4;
+}
+
+.inline {
+    display: inline-block;
+    width: 69%;
+    box-sizing: border-box;
+}
+
+.img {
+    display: inline-block;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.inline {
+    padding: 20px;
+}
+
+#text {
+    display: block;
+}
+
+.form {
+    display: inline-block;
+    width: 40%;
+}
+
+.name {
+    margin-right: 100px;
+}
+
+
+#label {
+    color: rgb(128, 123, 123);
+}
+
+.label {
+    color: rgb(128, 123, 123);
+    margin-bottom: 10px;
+}
+
+#message {
+    color: rgb(128, 123, 123);
+}
+
+#text {
+    display: block;
+}
+
+#label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.message {
+    margin-top: 50px;
+}
+
+.s {
+    border: none;
+    border-bottom: 1px solid #66666d;
+    background: #c7f3e8;
+}
+
+.d {
+    padding-bottom: 5px;
+}
+
+form h2 {
+    text-align: center;
+}
+
+@media (max-width:500px) {
+    .container {
+        font-size: 15px;
+        /* text-align: center; */
+        width: 100%;
+       
+       
+    }
+
+    .inline {
+        text-align: center;
+        width: 100%;
+    }
+
+    .t {
+        display: block;
+        }
+
+    .img {
+        max-width: 200px;
+        margin: auto;
+    }
+    
+    .card1
+    {
+        font-size: 15px;
+    }
+
+    .card2 {
+        font-size: 15px;
+    }
+
+    .card3 h2 {
+        font-size: 20px;
+    }
+
+    .card3 {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .form {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
